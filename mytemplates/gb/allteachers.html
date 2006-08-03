@@ -1,0 +1,22 @@
+{% extends "gb/gb_base.html" %}
+{% block title %}All Teachers{% endblock %}
+
+
+{% block content %}
+<h1>All Teachers in the Database</h1>
+
+{% if teachers %}
+
+
+<p>There are {{teachers|length}} teachers:</p>
+    <ul>
+    {% for t in teachers %}
+        <li>{{t}} <a href = "mailto:{{t.sfu_email}}">({{t.sfu_email}})</a>
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No teachers in the database. That's weird!</p>
+{% endif %}
+    
+{% endblock %}
