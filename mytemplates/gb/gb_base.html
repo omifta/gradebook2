@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>{% block title %}GB site{% endblock %}</title>
+
+<style type = "text/css">
+body {font-family: Georgia;
+      margin: 0px;
+      background-color: rgb(95%,95%,80%);
+}
+
+#header {font: bold 48px Trebuchet MS;
+         color:black;
+         padding-left: 30px;
+         border-bottom: 0px solid black;
+         background-color: rgb(85%,85%,70%);
+         margin-bottom: 0px
+}
+
+#content {float: right;
+          padding: 1px 20px 1px 10px;
+          width: 80%;
+          margin: 0px;
+          border: none;
+          background-color: rgb(95%,95%,80%);
+}
+
+
+#content h1 {font-family: Verdana;
+             color: #000099;
+             margin-bottom: 0;
+}
+
+#content a {text-decoration: none;
+            color: #006633;
+}
+
+#content a:hover {text-decoration: underline;
+                  font-weight: bold;
+}
+
+#content ul { padding-left: 1em;
+}
+
+#nav {float: left;
+      width: 10%;
+      margin-top: 0px;
+      font-weight: bold;
+      padding: 10px;
+      border: none;
+      font-family: Trebuchet MS;      
+}
+
+#nav h3 {padding: 0 0 0 0;
+         margin: 0 0 0 0;
+         text-align:center;
+         text-transform: uppercase;
+         letter-spacing: 4px;
+         font-size: x-small;
+}
+
+#nav a {text-decoration: none; color: black;}
+#nav a:link {color: rgb(20%,40%,0%);}
+#nav a:hover {text-decoration: underline;}
+/* #nav a:visited {color: gray;} */
+
+#nav ul {list-style: none;           /* remove indentation and bullets*/
+         margin: 0;
+         padding: 0;
+         border-right: 1px dotted rgb(50%, 50%, 35%);
+         text-align: right;
+}
+#nav li {padding: 0.5em .5em 0 0.25em;  /* spread out the links */
+         border-bottom: 0px solid yellow;
+} 
+</style>
+
+</head>
+
+
+<body>
+<div id="header">Django GB</div>
+
+<div id="content">
+{% block content %}{% endblock %}
+<hr>
+<p style = "font-size:small;margin-top:0;">Last page update: <b>{% now "F jS, P" %}</b></p>
+</div>
+
+<div id="nav">
+<h3>Menu</h3>
+<ul>
+  <li><a href = "/gb/allcourses">Courses</a></li>
+  <li><a href = "/gb/allteachers">Teachers</a></li>
+  <li><a href = "/admin">GB Admin</a></li>
+</ul>
+
+<h3 style="margin-top:1.5em;">Links</h3>
+<ul>
+  <li><a href = "http://www.cs.sfu.ca">SFU CS</a></li>
+  <li><a href = "http://www.sfu.ca">SFU</a></li>
+</ul>
+</div>
+</body>

@@ -1,0 +1,15 @@
+;; Object admin/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "admin/"
+  :tables (list 
+   (semanticdb-table "base_site.html"
+    :major-mode 'html-helper-mode
+    :tags '(("{% trans 'Django Test Site Admin' %}" section nil nil [157 161]))
+    :file "base_site.html"
+    :pointmax 271
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre3"
+  :semanticdb-version "2.0pre3"
+  )

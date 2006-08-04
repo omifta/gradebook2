@@ -1,0 +1,26 @@
+{% extends "gb/gb_base.html" %}
+{% block title %}All Students{% endblock %}
+
+
+{% block content %}
+<h1>All Students in the Database</h1>
+
+{% if students %}
+
+
+<p>There are {{students|length}} students:</p>
+    <ul>
+    {% for s in students %}
+        <li><a href = "mailto:{{s.sfu_email}}">{{s}} ({{s.sfu_email}})</a>
+        {% if s.courses_taken %}
+          <br>
+          {% for c in s.courses_taken %}{% if not forloop.first %}, {% endif %}{{c}}{% endfor %}
+        {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No students in the database. That's weird!</p>
+{% endif %}
+    
+{% endblock %}
