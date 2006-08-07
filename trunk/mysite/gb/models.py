@@ -7,7 +7,6 @@ class Teacher(models.Model):
     first_name = models.CharField(maxlength = 20, core = True)
     last_name = models.CharField(maxlength = 20, core = True)
     sfu_email = models.EmailField(core = True, unique = True)
-    #contact info?
 
     def fullname(self):
         return self.first_name + ' ' + self.last_name
