@@ -1,0 +1,45 @@
+{% extends "gb/gb_base.html" %}
+{% block title %}{{course}} {{course.section}}{% endblock %}
+
+
+{% block content %}
+<h1>Course Details</h1>
+{% for course in courses %}
+<h2>{{course}} {{course.section}} Details</h2>
+
+<p><b>Year:</b> {{course.course_year}}</p>
+
+<p><b>Teacher{{course.taught_by|length|pluralize}}:</b>
+{% for t in course.taught_by %}{% if not forloop.first %}, {% endif %}{{t}} {% endfor %}
+</p>
+
+<p><b># enrolled students:</b> {{course.taken_by|length}}
+<br>
+{% for s in course.taken_by %}{% if not forloop.first %}, {% endif %}{{s}}{% endfor %}
+</p>
+
+<p><b>Activities</b>
+{% if course.activities %}
+<ul>
+  {% for act in course.activities %}
+  <li><b>{{act}}</b>
+      <br>Due: {{act.due_date|date:"l F jS, P"}}
+       {% if act.past_due %}
+            The due date has passed!
+       {% else %}
+            ({{act.due_date|timeuntil}} until its due!)
+       {% endif %}
+      <br>Out of: {{act.out_of}}
+      <br>% of final grade: {{act.weight}}%
+      <br>Type: {{act.activity_type}}
+      <br>{{act.description}}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No activities yet.</p>
+{% endif %}
+</p>
+{% endfor %}
+    
+{% endblock %}

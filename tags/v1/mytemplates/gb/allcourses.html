@@ -1,0 +1,46 @@
+{% extends "gb/gb_base.html" %}
+{% block title %}All Courses{% endblock %}
+
+{% comment %}
+
+In an earlier version of this template, a list of (course, teachers)
+pairs called course_teacher was passed in instead of course_list. This
+was a hack to get around the problem of not being able to access
+dictionary values using variables (see the comment by Django developer
+Adrian Holovathy at the bottom of
+http://www.djangoproject.com/documentation/templates/; he suggests a
+special-purpose tag could be written to do it; see
+http://www.djangoproject.com/documentation/templates_python/ for
+writing new tags/filters). It required writing ugly expressions like
+ct.0.course_name and ct.1.
+
+However, the approach below is more readable and straightforward: a
+method has been added to Course objects that return their associated
+teachers.
+
+{% endcomment%}
+
+{% block content %}
+<h1>All Courses in the Database</h1>
+
+{% if course_list %}
+
+
+<p>There are {{course_list|length}} courses:</p>
+    <ul>
+    {% for c in course_list %}
+        <li><a href = "/gb/course/{{c.course_name|lower|cut:" "}}">{{c.course_name}}, {{c.section}} ({{c.semester.capitalize}} {{c.course_year}})</a>
+            {% if c.taught_by %}
+               <br>Taught by: 
+               {% for teacher in c.taught_by %}{% if not forloop.first %}, {% endif %}<a href="mailto:{{teacher.sfu_email}}">{{teacher}}</a>{% endfor %}
+            {% else %}
+               (no teachers)
+            {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No courses available. Go read a book.</p>
+{% endif %}
+    
+{% endblock %}
