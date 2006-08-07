@@ -1,6 +1,7 @@
 from django.db import models
 import datetime
 
+# Remove Teacher and Student class?
 
 class Teacher(models.Model):
     sfu_id = models.CharField(maxlength = 9, core = True, primary_key = True)
