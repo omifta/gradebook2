@@ -1,0 +1,13 @@
+#labels Phase-Requirements
+= Major Features =
+
+  * Import classic GB export files.
+  * Record who marked what assignments.
+  * Provide and API for alternative marking schemes and reports.
+  * Teacher view with easy to use "dashboard" collecting all important options.
+  * CSS styling of all pages.
+  * Automatic email/RSS notices to students when marks have been changed, or assignments are added, etc.
+  * Support team marks, including secure access for team members to view their team marks.
+
+
+
