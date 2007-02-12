@@ -1,6 +1,4 @@
 #labels Phase-Design
-Major GB2 Pages
-
   * TeacherEnterSingleStudentMarkView
   * TeacherEnterBatchStudentMarksView
   * TeacherCourseDashBoardView
