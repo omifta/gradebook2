@@ -1,5 +1,5 @@
 #labels Phase-Requirements
-= Major Features =
+See also MajorPages for a list of the main pages expected to be in the system.
 
   * Import classic GB export files.
   * Record who marked what assignments.
@@ -8,6 +8,5 @@
   * CSS styling of all pages.
   * Automatic email/RSS notices to students when marks have been changed, or assignments are added, etc.
   * Support team marks, including secure access for team members to view their team marks.
-
 
 
