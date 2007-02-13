@@ -4,10 +4,10 @@ See also MajorPages for a list of the main pages expected to be in the system.
 ==Teacher Features==
 
   * Teacher view with easy to use "dashboard" collecting all important options. Allow control over when marks, assignments, graphs, etc. are visible.
-  * Allow marks for an assignment or a course to be frozen to prevent markers from adding any more marks.
-  * Protect marks from overwriting due to overlapping writes.
+  * Allow marks for an assignment or a course to be frozen to prevent markers from adding any more marks. This is not a security feature: it is just a convenience to help prevent changing marks after they have been officially submitted. Thus, any teacher for the course can unlock the lock.
+  * Protect marks from overwriting due to overlapping writes. This is occasionally an issue in large course when multiple teachers are entering marks.
   * Import classic GB CSV files.
-  * Record who marked what assignments.
+  * Record who marked what assignments. This way students can more quickly talk to the marker for their assignments.
   * Allow changes to the marking scheme for a single student. For example, a student misses an assignment, and the weight of the assignment is added to their midterm exam. All other students keep the same weighting.
   * Support team marks, including secure access for team members to view their team marks.
   * Provide an API for alternative marking schemes and reports.
