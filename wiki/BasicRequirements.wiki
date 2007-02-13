@@ -1,10 +1,16 @@
 #labels Phase-Requirements
 See also MajorPages for a list of the main pages expected to be in the system.
 
+==Actors==
+
+  * Teachers (possibly TAs too, but it's unclear if making such a fine distinction is worth the trouble).
+  * Students.
+  * Administrators (e.g. responsible for adding students, etc.)
+
 ==Teacher Features==
 
   * Teacher view with easy to use "dashboard" collecting all important options. Allow control over when marks, assignments, graphs, etc. are visible.
-  * Allow marks for an assignment or a course to be frozen to prevent markers from adding any more marks. This is not a security feature: it is just a convenience to help prevent changing marks after they have been officially submitted. Thus, any teacher for the course can unlock the lock.
+  * Allow marks for an assignment or a course to be frozen to prevent markers from adding any more marks. This is not a security feature: it is just a convenience to help prevent changing marks after they have been officially submitted. Thus, any course teacher can unlock the lock.
   * Protect marks from overwriting due to overlapping writes. This is occasionally an issue in large course when multiple teachers are entering marks.
   * Import classic GB CSV files.
   * Record who marked what assignments. This way students can more quickly talk to the marker for their assignments.
