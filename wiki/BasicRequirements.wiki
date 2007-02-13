@@ -3,7 +3,8 @@ See also MajorPages for a list of the main pages expected to be in the system.
 
 ==Teacher Features==
 
-  * Teacher view with easy to use "dashboard" collecting all important options.
+  * Teacher view with easy to use "dashboard" collecting all important options. Allow control over when marks, assignments, graphs, etc. are visible.
+  * Allow marks for an assignment or a course to be frozen to prevent markers from adding any more marks.
   * Protect marks from overwriting due to overlapping writes.
   * Import classic GB CSV files.
   * Record who marked what assignments.
@@ -15,7 +16,7 @@ See also MajorPages for a list of the main pages expected to be in the system.
   * Student view with courses and preferences "dashboard".
   * Automatic email/RSS notices to students when marks have been changed, or assignments are added, etc.
   * Simple what-if analysis to answers questions like "What % must I get on the final exam to get an overall grade of 86% or higher".
-  * 
+  * Provide charts showing where student stands with respect to the rest of the class.
 
 ==General Features==
   * CSS for all pages.
