@@ -1,12 +1,22 @@
 #labels Phase-Requirements
 See also MajorPages for a list of the main pages expected to be in the system.
 
-  * Import classic GB export files.
-  * Record who marked what assignments.
-  * Provide and API for alternative marking schemes and reports.
+==Teacher Features==
+
   * Teacher view with easy to use "dashboard" collecting all important options.
-  * CSS styling of all pages.
-  * Automatic email/RSS notices to students when marks have been changed, or assignments are added, etc.
+  * Protect marks from overwriting due to overlapping writes.
+  * Import classic GB CSV files.
+  * Record who marked what assignments.
+  * Allow changes to the marking scheme for a single student. For example, a student misses an assignment, and the weight of the assignment is added to their midterm exam. All other students keep the same weighting.
   * Support team marks, including secure access for team members to view their team marks.
+  * Provide an API for alternative marking schemes and reports.
 
+==Student Features==
+  * Student view with courses and preferences "dashboard".
+  * Automatic email/RSS notices to students when marks have been changed, or assignments are added, etc.
+  * Simple what-if analysis to answers questions like "What % must I get on the final exam to get an overall grade of 86% or higher".
+  * 
 
+==General Features==
+  * CSS for all pages.
+  * Use JavaScript when appropriate.
