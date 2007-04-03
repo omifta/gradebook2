@@ -17,6 +17,8 @@ See also MajorPages for a list of the main pages expected to be in the system.
   * Allow changes to the marking scheme for a single student. For example, a student misses an assignment, and the weight of the assignment is added to their midterm exam. All other students keep the same weighting.
   * Support team marks, including secure access for team members to view their team marks.
   * Provide an API for alternative marking schemes and reports.
+  * Teachers can apply "tags" to students, such as "didNotWriteFinal", or to help track teams, e.g. all the team members on Team LimePress could be tagged with "LimePress". Searching and sorting by tags would also be useful.
+  * Enable random order of displays, which would be useful for choosing orders for presentations, etc.
 
 ==Student Features==
   * Student view with courses and preferences "dashboard".
