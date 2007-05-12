@@ -8,6 +8,12 @@ See also MajorPages for a list of the main pages expected to be in the system.
   * AdminUser (e.g. responsible for adding students, etc.)
   * VisitorUser (i.e. people who want a tour of the GradeBook).
 
+==Essential Objects==
+
+  * ActivityObject
+  * StudentMark
+  * MarkingScheme
+
 ==Teacher Features==
 
   * Teacher view with easy to use "dashboard" collecting all important options. 
