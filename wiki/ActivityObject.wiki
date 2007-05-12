@@ -1,3 +1,4 @@
+#labels Phase-Design,Phase-Requirements
 Teachers create and mark activities, while students "do" the activities.
 
 Two major activity types are exams and assignments. There may be others, such as "participation marks".
