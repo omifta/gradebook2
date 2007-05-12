@@ -1,6 +1,4 @@
 #labels Phase-Requirements
-See also MajorPages for a list of the main pages expected to be in the system.
-
 ==Actors==
 
   * TeacherUser (possibly TAs too, but it's unclear if making such a fine distinction is worth the trouble).
