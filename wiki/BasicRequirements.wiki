@@ -13,6 +13,7 @@ See also MajorPages for a list of the main pages expected to be in the system.
   * ActivityObject
   * StudentUser, TeacherUser
   * CourseObject
+  * AssessmentScheme
 
 ==Teacher Features==
 
