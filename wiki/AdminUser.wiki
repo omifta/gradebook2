@@ -1,1 +1,1 @@
-Extends BaseUser.
+Extends UserBase.
