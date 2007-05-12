@@ -1,4 +1,4 @@
-#labels Phase-Design
+#labels Phase-Design,Phase-Requirements
   * Name
   * Student # (e.g. SFU ID)
   * Email address
