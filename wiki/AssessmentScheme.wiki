@@ -1,0 +1,5 @@
+An assessment scheme determines marks for class activities. There are a number of standard assessment schemes in common use that should be supported by default, but there are also more exotic assessment schemes that individual teachers prefer.
+
+Sometimes teachers make single-student exceptions to the marking scheme, e.g. a student who misses a midterm for a good might have the marks for that moved to the final exam. But in the same course there might be students who miss the midterm for no good reason, and so they do not get the benefit of more highly-weighted final exam.
+
+There needs to be some mechanism for allowing motivated teachers to create their own marking scheme. For example, perhaps an on-screen textbox could be provided wherein the teacher enters their assessment scheme for a course using Python. Variables representing activities and students could be provided in a standard way. Default marking schemes could be written in this way, so that it would be easy for teachers to see examples of how to make their own.
