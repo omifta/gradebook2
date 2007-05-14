@@ -32,7 +32,7 @@
   * Student view with courses and preferences "dashboard".
   * Automatic email/RSS notices to students when marks have been changed, or assignments are added, etc.
   * Simple what-if analysis to answers questions like "What % must I get on the final exam to get an overall grade of 86% or higher".
-  * Provide charts showing where student stands with respect to the rest of the class.
+  * Provide charts showing where student stands with respect to the rest of the class. Include a way for students to see where they stand with respect to the overall class distribution.
 
 ==General Features==
   * CSS for all pages.
