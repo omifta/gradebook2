@@ -18,7 +18,7 @@
   * Teacher view with easy to use "dashboard" collecting all important options. 
      * *Add/remove/edit activities.* Activities have names, descriptions, marks, weightings, tags (for categorization), etc. (Should users be allowed to associate arbitrary objects with activities?)
      * *Browse and search student records in a course.* The list of student records has visual aids, such as line numbering, coloring of alternate rows, etc.
-     * Set page/report visibility. For instance, you might not want to let students see their marks on some activity that might be scaled. Or you might not want to let them see statistics of the overall class performance.
+     * *Set page/report visibility.* For instance, you might not want to let students see their marks on some activity until everyone has had their mark entered. Or you might not want to let them see statistics of the overall class performance.
      * *Freeze mark changes.* For example, when a course is done, no more changes should be made to avoid the problem that the instructor does not notice the changes. These locks are not meant to be super-secure: freezing is just a way to avoid accidental changes. 
   * *Protect marks from overwriting due to multiple users entering marks at the same time (which can occur with large classes).*
   * *Import classic GB CSV files.*
