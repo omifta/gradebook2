@@ -1,0 +1,1 @@
+A TeacherInAcourse object stores course-specific information for a teacher.
