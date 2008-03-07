@@ -26,7 +26,7 @@
   * *Record who marked what assignments.* This way students can more quickly talk to the marker for their assignments.
   * *Allow changes to the marking scheme for a single student.* For example, a student misses an assignment, and the weight of the assignment is added to their midterm exam. All other students keep the same weighting. Or a student might have missed the midterm and the instructor decides to add the percentage of the midterm to the percentage of the final.
   * *Provide an API for alternative marking schemes and reports.* Thus instructors who want to implement their own personal marking scheme, they can do so.
-  * Teachers can apply "tags" to students, such as "didNotWriteFinal" (which could be added automatically), or to help track teams, e.g. all the team members on Team LimePress could be tagged with "LimePress". Searching and sorting by tags would also be useful.
+  * Teachers can apply StudentTags, such as "didNotWriteFinal" (which could be added automatically), or to help track teams, e.g. all the team members on Team LimePress could be tagged with "LimePress". Searching and sorting by tags would also be useful.
   * Enable random order of displays, which would be useful for deciding persentation orders etc.
 
 ==Student Features==
