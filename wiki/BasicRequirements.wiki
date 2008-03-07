@@ -9,7 +9,7 @@
 ==Essential Objects==
 
   * ActivityObject
-  * StudentUser, TeacherUser
+  * UserBase, StudentUser, TeacherUser
   * CourseObject
   * AssessmentScheme
 
