@@ -10,7 +10,7 @@
 
   * ActivityObject
   * UserBase, StudentUser, TeacherUser
-  * CourseObject, StudentInAcourse, TeacherInAcourse
+  * CourseObject
   * AssessmentScheme
 
 ==Teacher Features==
