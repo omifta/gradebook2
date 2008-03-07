@@ -42,3 +42,10 @@
   * Save all edits, e.g. using SVN.
   * Keep an archive of all old courses, accessible by instructors.
   * Keeping a collection of marking schemes for people to choose from for their courses.
+  * Statistics over courses, such as average enrollment, average grades, etc.
+
+==Design Notes==
+
+Is it necessary to use a DB for this? Python serialization might be good enough. Performance may not be an issue since there are generally only a couple hundred students at most per course, and so a DB might not add much value.
+
+By avoiding a DB, we avoid designing DB tables; coupling with a DB system; dealing with ORM.
