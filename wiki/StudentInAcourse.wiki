@@ -1,3 +1,4 @@
+#labels Phase-Requirements,Phase-Design
 When a student is enrolled in a course, a special StudentInaCourse record is created for them to store course-specific information such as:
 
 - The date they were added to the course (might be useful knowledge if they started late).
